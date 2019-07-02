@@ -1,0 +1,6 @@
+num1,num2=map(int,input().split())
+d=input()
+lis1=list(map(int,input().split()))
+lis2=list(map(int,input().split()))
+lis=(max(lis1),max(lis2))
+print(*lis,end=" ")
